@@ -2,20 +2,6 @@
 
 Repositório contendo materiais, exercícios e trabalhos acadêmicos de disciplinas do curso.
 
-## 📁 Estrutura do Repositório
-
-```
-faculdade/
-└── p1/
-    ├── Algoritmo/
-    │   ├── Exercicios/           # Exercícios práticos de algoritmos
-    │   └── Slides/               # Slides e materiais teóricos
-    ├── ArquiteturaEOrganizacao/  # Disciplina de Arquitetura e Organização
-    ├── EngenhariaDeRequisitos/   # Disciplina de Engenharia de Requisitos
-    ├── Introducao/               # Disciplina de Introdução
-    └── Topicos/                  # Tópicos especiais
-```
-
 ## 📚 Disciplinas
 
 ### Algoritmo
