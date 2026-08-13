@@ -8,49 +8,36 @@ Repositório contendo materiais, exercícios e trabalhos acadêmicos de discipli
 faculdade/
 └── p1/
     ├── Algoritmo/
-    │   ├── Exercicios/       # Exercícios práticos de algoritmos
-    │   └── Slides/           # Slides e materiais teóricos
-    ├── ArquiteturaEOrganizacao/  # Disciplina de Arquitetura
+    │   ├── Exercicios/           # Exercícios práticos de algoritmos
+    │   └── Slides/               # Slides e materiais teóricos
+    ├── ArquiteturaEOrganizacao/  # Disciplina de Arquitetura e Organização
     ├── EngenhariaDeRequisitos/   # Disciplina de Engenharia de Requisitos
     ├── Introducao/               # Disciplina de Introdução
     └── Topicos/                  # Tópicos especiais
 ```
 
-## 🎯 Conteúdo
+## 📚 Disciplinas
 
 ### Algoritmo
-- **Exercicios**: Contém scripts Python com exercícios práticos de algoritmos
-- **Slides**: Materiais teóricos e apresentações da disciplina
+- **Exercícios**: Scripts Python organizados numericamente (`code1.py`, `code2.py`, etc.)
+- **Slides**: Materiais teóricos e apresentações
 
-### Outras Disciplinas
-Pastas contendo materiais das demais disciplinas cursadas.
+### Arquitetura e Organização
+Conteúdos sobre arquitetura de computadores e organização de sistemas.
+
+### Engenharia de Requisitos
+Materiais sobre metodologias e práticas de engenharia de requisitos.
+
+### Introdução
+Disciplinas introdutórias do curso.
+
+### Tópicos
+Tópicos especiais e complementares.
 
 ## 🛠️ Tecnologias
 
 - **Linguagem**: Python
 - **Versionamento**: Git
-
-## 📝 Como Usar
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/itinhu/faculdade.git
-```
-
-2. Navegue até a pasta desejada:
-```bash
-cd faculdade/p1/Algoritmo/Exercicios
-```
-
-3. Execute um exercício:
-```bash
-python code1.py
-```
-
-## 📚 Notas
-
-- Os exercícios estão organizados numericamente em `code1.py`, `code2.py`, etc.
-- Cada arquivo contém um ou mais exercícios com seus respectivos soluções
 
 ## 📧 Contato
 
