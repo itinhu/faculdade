@@ -1,0 +1,5 @@
+print('cuscuz com carne e suco de laranja')
+print(12+3)
+print(12-3)
+print(12*3)
+print(12/3)
