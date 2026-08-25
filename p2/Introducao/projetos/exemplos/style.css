@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e6e6e6;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.header li{
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.header li a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card{
+    background-color: aquamarine;
+    width: 100%;
+    padding: 20px;
+    height: 120px;
+    margin:20px;
+    border-radius: 20px;
+}
+
+.lanche {
+    font-family: 'Roboto';
+}
