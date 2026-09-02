@@ -1,0 +1,99 @@
+
+    html {
+        height: 100%;
+    }
+ 
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #fff2d9;
+        color: #333333;
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    section {
+        flex: 1;
+    }
+
+    .topo_da_pagina {
+        background-color: #3b2a20;
+        color: #f4c542;
+        text-align: center;
+        padding: 30px;
+        margin-bottom: 10px;
+    }
+ 
+    .topo_da_pagina h1 {
+        font-size: 40px;
+    }
+ 
+    .topo_da_pagina p {
+        color: #ffffff;
+        font-style: italic;
+        margin-top: 10px;
+    }
+
+    nav {
+        background-color: #c0392b;
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+ 
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0 20px;
+        padding: 8px 15px;
+        background-color: #a5281b;
+        border-radius: 6px;
+    }
+ 
+    nav a:hover {
+        background-color: #e8a33d;
+        color: #3b2a20;
+    }
+
+    section {
+        background-color: #ffffff;
+        width: 85%;
+        margin: 20px auto;
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    .prato_do_dia {
+        background-color: #f4c542;
+        color: #3b2a20;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+    }
+ 
+    .horario_de_funcionamento {
+        background-color: #3b2a20;
+        color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+    }
+ 
+    .prato_do_dia h2,
+    .horario_de_funcionamento h2 {
+        margin-bottom: 10px;
+    }
+ 
+    footer {
+        background-color: #3b2a20;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 0;
+    }
+ 
+    footer p {
+        margin: 5px 0;
+    }
