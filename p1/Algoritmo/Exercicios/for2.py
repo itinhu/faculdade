@@ -8,3 +8,4 @@ for i in range(repeticoes-1):
         menor = num
 
 print(f'O menor número é {menor}')
+
