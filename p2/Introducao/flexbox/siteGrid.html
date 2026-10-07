@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Site Completo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            .pagina{
+                display: grid;
+                grid-template-columns: 200px 1fr;
+                grid-template-rows: 100px 1fr 50px;
+                grid-template-areas:
+                    "header header"
+                    "sidebar main"
+                    "footer footer";
+                height: 100vh;
+            }
+            header{
+                grid-area: header;
+                background-color: #202220;
+                color: white;
+                text-align: center;
+                padding: 20px;
+                align-items: center;
+            }
+            h1{
+                font-family: 'Courier New', Courier, monospace;
+            }
+            h2{
+                font-family: 'Courier New', Courier, monospace;
+                margin-bottom: 10px;
+                color: #f4f4f9;
+            }
+            .sidebar{
+                grid-area: sidebar;
+                background-color: #464646;
+                padding: 20px;
+            }
+            .main{
+                grid-area: main;
+                background-color: #f4f4f9;
+                padding: 20px;
+            }
+            footer{
+                grid-area: footer;
+                background-color: #202220;
+                color: white;
+                text-align: center;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="pagina">
+        <header><h1>Header com Título</h1></header>
+        <div class="sidebar"><h2>Menu</h2>
+            <ul>
+                <li>Home</li>
+                <li>Contato</li>
+                <li>Loja</li>
+                <li>Sobre</li>
+            </ul>
+        </div>
+        <div class="main"> Conteúdo Principal 
+        </div>
+        <footer>Ítalo Iran</footer>
+    </div>
+
+    </body>
+</html>

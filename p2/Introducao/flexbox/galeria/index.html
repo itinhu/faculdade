@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>🖼️ | Galeria de Mídias</title>
+
+    <style>
+      /* CONFIGURAÇÕES GERAIS */
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #1e1e1e;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 30px;
+      }
+
+      /* TÍTULO */
+
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #ff4d00;
+        font-size: 32px;
+      }
+
+      .pagina {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+          "imagem1 imagem2 imagem3"
+          "imagem1 video1 video1"
+          "video2 audio1 audio2";
+        gap: 10px;
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      .item {
+        background-color: #2b2b2b;
+        border: 2px solid #444;
+        border-radius: 12px;
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      img {
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+
+      video {
+        width: 100%;
+        max-height: 300px;
+        border-radius: 8px;
+      }
+
+      audio {
+        width: 100%;
+      }
+
+      figcaption {
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #f2f2f2;
+        text-align: center;
+      }
+      .imagem1 {
+        grid-area: imagem1;
+      }
+      .imagem2 {
+        grid-area: imagem2;
+      }
+      .imagem3 {
+        grid-area: imagem3;
+      }
+      .video1 {
+        grid-area: video1;
+      }
+      .video2 {
+        grid-area: video2;
+      }
+      .audio1 {
+        grid-area: audio1;
+      }
+      .audio2 {
+        grid-area: audio2;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>🖼️ | Galeria de Mídias</h1>
+
+    <div class="pagina">
+      <figure class="item imagem1">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_1rVfQurleOv97IAQ1GOqK_6W9KSFhP6xEZhGHaU9Sb4Z8paQU0sRruMJ&s=10"
+          alt="Paisagem" class="lateral"
+        />
+
+        <figcaption>Paisagem</figcaption>
+      </figure>
+
+      <figure class="item imagem2">
+        <img
+          src="https://4kwallpapers.com/images/walls/thumbs/25454.jpg"
+          alt="Wallpaper"
+        />
+
+        <figcaption>Wallpaper</figcaption>
+      </figure>
+
+      <figure class="item imagem3">
+        <img
+          src="https://t3.ftcdn.net/jpg/15/42/32/32/360_F_1542323292_vpxI2BypeFHgSZUvuSRlJLACFn0yzp6d.jpg"
+          alt="Imagem artística"
+        />
+
+        <figcaption>Imagem artística</figcaption>
+      </figure>
+
+      <figure class="item video1">
+        <video src="video1.mp4" controls></video>
+
+        <figcaption>Primeiro vídeo</figcaption>
+      </figure>
+
+      <figure class="item video2">
+        <video src="video1.mp4" controls></video>
+
+        <figcaption>Segundo vídeo</figcaption>
+      </figure>
+
+      <figure class="item audio1">
+        <audio src="audio1.mp3" controls></audio>
+
+        <figcaption>Primeiro áudio</figcaption>
+      </figure>
+
+      <figure class="item audio2">
+        <audio src="audio2.mp3" controls></audio>
+
+        <figcaption>Segundo áudio</figcaption>
+      </figure>
+    </div>
+  </body>
+</html>
